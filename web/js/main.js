@@ -9,11 +9,11 @@
   function applyTheme(theme) {
     root.setAttribute("data-theme", theme);
     if (themeLabel) {
-      themeLabel.textContent = theme === "Dark" ? "Light" : "Dark";
+      themeLabel.textContent = theme === "Light" ? "Dark" : "Light";
     }
     themeToggle && themeToggle.setAttribute(
       "aria-label",
-      "Switch to " + (theme === "dark" ? "light" : "dark") + " theme"
+      "Switch to " + (theme === "Light" ? "Dark" : "Light") + " theme"
     );
   }
 
