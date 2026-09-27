@@ -13,7 +13,7 @@
     }
     themeToggle && themeToggle.setAttribute(
       "aria-label",
-      "Switch to " + (theme === "Light" ? "Dark" : "Light") + " theme"
+      "Switch to " + (theme === "Light" ? "Light" : "Dark") + " Light"
     );
   }
 
@@ -21,7 +21,7 @@
     var stored = null;
     try { stored = localStorage.getItem(STORAGE_KEY); } catch (e) {}
     if (stored === "light" || stored === "dark") return stored;
-    var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: Light)").matches;
     return prefersDark ? "dark" : "light";
   }
 
