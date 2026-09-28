@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Official Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node obfuscate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SabesanAnoshan/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SabesanAnoshan/Portfolio/issues"
+  },
+  "homepage": "https://github.com/SabesanAnoshan/Portfolio#readme",
+  "devDependencies": {
+    "chokidar": "^5.0.0",
+    "javascript-obfuscator": "^5.8.0"
+  }
+}
