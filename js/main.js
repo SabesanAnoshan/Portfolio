@@ -125,7 +125,7 @@ document.body.innerHTML = `
         <li class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <p class="timeline-period">In Progress</p>
+            <p class="timeline-period">Completed</p>
             <h3>Diploma in Information Technology</h3>
             <p class="timeline-org">ESOFT Metro Campus</p>
             <p class="timeline-desc">Foundational diploma covering core IT concepts alongside the HND programme.</p>
@@ -134,7 +134,7 @@ document.body.innerHTML = `
         <li class="timeline-item">
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <p class="timeline-period">In Progress</p>
+            <p class="timeline-period">Completed</p>
             <h3>Diploma in English</h3>
             <p class="timeline-org">ESOFT Metro Campus</p>
             <p class="timeline-desc">Structured English language diploma supporting professional communication.</p>
