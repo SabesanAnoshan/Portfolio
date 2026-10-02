@@ -19,7 +19,7 @@ document.body.innerHTML = `
       <a href="#skills">Skills</a>
       <a href="#works">Community</a>
       <a href="#contact">Contact</a>
-      <!-- <a href="">Business</a> -->
+      <a href="https://techybro.netlify.app/" target="_blank">Business</a>
     </nav>
 
     <div class="nav-actions">
@@ -41,7 +41,7 @@ document.body.innerHTML = `
       <p class="hero-desc">
         Currently pursuing the HND in Network Engineering at ESOFT Metro Campus, building
         production Network as part-time full-stack developer for my own technology venture,
-        <strong>FounderMate</strong>, while contributing to community leadership and service initiatives.
+        <strong>TechyBro</strong>, while contributing to community leadership and service initiatives.
       </p>
       <div class="hero-actions">
         <a href="#contact" class="btn btn-primary">Get in Touch</a>
@@ -56,7 +56,7 @@ document.body.innerHTML = `
         
         <div>
           <dt>Venture</dt>
-          <dd>Founder, FounderMate</dd>
+          <dd>Founder, TechyBro</dd>
         </div>
 
         <div>
@@ -98,7 +98,7 @@ document.body.innerHTML = `
           at VCOT before undertaking a six-month internship as a Network Technician at
           SLT Telecom. I later completed a Full-Stack Development programme at IEBT Campus,
           which now underpins my day-to-day work building products for
-          <strong>FounderMate</strong>. Outside of engineering, I serve on the board of
+          <strong>TechyBro</strong>. Outside of engineering, I serve on the board of
           Leo Club ESOFT as Director of Media and hold a board position with the National
           Cadet Corps, and I edit video in my personal time.
         </p>
@@ -174,7 +174,7 @@ document.body.innerHTML = `
           <div class="timeline-content">
             <p class="timeline-period">Current — Part-Time</p>
             <h3>Full-Stack Developer</h3>
-            <p class="timeline-org">FounderMate (Own Startup)</p>
+            <p class="timeline-org">TechyBro (Own Startup)</p>
             <p class="timeline-desc">Designing and building web applications end to end — from interface to database — for a technology venture I co-run.</p>
           </div>
         </li>
@@ -326,6 +326,7 @@ document.body.innerHTML = `
       <p><a href="#top">Home</a></p>
       <p><a href="#about">About</a></p>
       <p><a href="#works">Works</a></p>
+      <p><a href="https://techybro.netlify.app/" target="_blank">Business</a></p>
     </div>
   </div>
 
@@ -858,6 +859,7 @@ button{ font-family: inherit; cursor: pointer; }
    RESPONSIVE
    ========================================================= */
 @media (max-width: 980px){
+.hero{ margin-top: 0.5em;}
   .hero-inner{ grid-template-columns: 1fr; }
   .hero-media{ order: -1; }
   /* .portrait-frame{ max-width: 220px; } */
